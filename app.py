@@ -158,12 +158,12 @@ with st.sidebar:
     st.markdown("---")
     st.markdown("### 🔑 Gemini API")
     gemini_key = st.text_input(
-        "API-nyckel (valfritt)",
+        "API- (valfritt)",
         type="password",
-        help="Med egen nyckel: 10× snabbare (parallellt). Utan: gratis via g4f (långsammare).",
+        help="Med egen : 10× snabbare (parallellt). Utan: gratis via g4f (långsammare).",
     )
     st.markdown(
-        '[Hämta gratis nyckel →](https://aistudio.google.com/app/api-keys)',
+        '[Hämta nyckel →](https://aistudio.google.com/app/api-keys)',
         unsafe_allow_html=True,
     )
 
